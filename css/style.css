@@ -1,0 +1,1123 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,{
+    text-transform: uppercase;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a .clr {
+    clear: both;
+}
+
+/*=================================================
+                menu part css start
+=================================================*/
+#header_top{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+nav {
+    background: #252627;
+}
+nav i{
+    color: #27ff62;
+}
+nav ul {
+    margin-left: 200px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff !important;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    transition: .4s;
+}
+
+nav ul li.active a,
+nav ul li a:hover {
+    color: #27ff62 !important;
+}
+
+nav ul .button a {
+    padding: 10px 50px !important;
+    background: #27ff62;
+    border-radius: 30px;
+    margin-left: 30px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #272626 !important;
+    transition: .4s;
+}
+
+nav ul .button a:hover {
+    background: #fff;
+    color: #000 !important;
+}
+.navbar-brand img{
+    width: 100%;
+    height: 80px;
+
+}
+/*=================================================
+                 menu part css end
+=================================================*/
+/*=================================================
+                 banner part css start
+=================================================*/
+#banner_part {
+    background: #252627;
+    padding-top: 100px;
+    position: relative;
+}
+
+#banner_part .text {
+    padding-top: 100px;
+    color: #fff;
+}
+
+#banner_part .text h3 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    color: #27ff62;
+}
+
+#banner_part .text h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#banner_part .text h2 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#banner_part .text p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+    width: 480px;
+}
+
+#banner_part .text a {
+    display: inline-block;
+    font-size: 16px;
+    color:#ff3333;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #27ff62;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-top: 50px;
+    transition: .4s;
+}
+
+#banner_part .text a:hover {
+    background: #27ff62;
+    color: #fff;
+}
+
+#banner_part .img_slider {
+    margin-top: 50px;
+}
+
+#banner_part .img_slider .img {
+    width: 100%;
+    height: 600px;
+}
+
+#banner_part .img_slider .img img {
+    width: 100%;
+    height: 100%;
+}
+
+#banner_part .icon {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    width: 20px;
+    transform: translateY(-50%);
+
+
+}
+
+#banner_part .icon a i {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 30px;
+    transition: .4s;
+
+}
+
+#banner_part .icon a i:hover {
+    color: #ffb633;
+}
+
+#banner_part .overlay .experiance .work {
+    width: 70%;
+    padding: 50px 0px 50px 70px;
+    margin: 0 auto;
+    background: #0d0b21;
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 100px;
+}
+
+#banner_part .overlay .experiance .work .one {
+    width: 33%;
+    float: left;
+    padding-left: 35px;
+}
+
+#banner_part .overlay .experiance .work .one .medel {
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    background: #ff3333;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+#banner_part .overlay .experiance .work .one .medel .fa-medal {
+    transform: rotate(180deg);
+}
+
+#banner_part .overlay .experiance .work .one .job {
+    float: left;
+    margin-left: 20px;
+}
+
+#banner_part .overlay .experiance .work .one .job h2 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+}
+
+#banner_part .overlay .experiance .work .one .job p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    color: #27ff62;
+    margin-top: 5px;
+}
+
+#banner_part .overlay .experiance .work .one .line {
+    float: left;
+    width: 2px;
+    height: 80px;
+    background: #999999;
+    margin-top: -60px;
+    margin-left: 100%;
+}
+
+/*=================================================
+                 banner part css end
+=================================================*/
+/*=================================================
+                 about part css start
+=================================================*/
+#about_part {
+    background: url(../images/backgorund2.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#about_part .overlay {
+    width: 100%;
+    background: rgba(9, 8, 50, 0.97);
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+}
+
+#about_part .overlay .left {
+    margin-top: 200px;
+}
+
+#about_part .overlay .left .img {
+    height: 400px;
+    position: relative;
+}
+
+#about_part .overlay .left .img img {
+    height: 100%;
+}
+
+#about_part .overlay .left .img::after {
+    position: absolute;
+    content: "";
+    top: -10px;
+    left: -10px;
+    width: 100px;
+    height: 2px;
+    background: #ff3333;
+}
+
+#about_part .overlay .left .img::before {
+    position: absolute;
+    content: "";
+    top: -10px;
+    left: -10px;
+    width: 2px;
+    height: 100px;
+    background: #ff3333;
+}
+
+#about_part .overlay .left .img h3::after {
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    left: 235px;
+    width: 100px;
+    height: 2px;
+    background: #ff3333;
+}
+
+#about_part .overlay .left .img h3::before {
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    left: 335px;
+    width: 2px;
+    height: 100px;
+    background: #ff3333;
+}
+
+#about_part .overlay .right {
+    margin-top: 200px;
+}
+
+#about_part .overlay .right h4 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    color: #27ff62;
+    font-weight: bold;
+}
+
+#about_part .overlay .right h1 {
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    margin: 10px 0px;
+}
+
+#about_part .overlay .right p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    width: 390px;
+}
+
+#about_part .overlay .info{
+    margin-top: 30px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}
+
+#about_part .overlay .info ul {
+    float: left;
+}
+
+#about_part .overlay .info .name li {
+    margin-bottom: 20px;
+}
+
+#about_part .overlay .info .name li i {
+    margin-right: 10px;
+    color: #27ff62;
+}
+
+#about_part .overlay .info .clone {
+     float: left;
+}
+
+#about_part .overlay .info .clone li {
+    margin-bottom: 20px;
+}
+
+#about_part .overlay .info .name2 {
+     float: left;
+}
+
+#about_part .overlay .info .name2 li {
+    margin-bottom: 20px;
+}
+
+#about_part .overlay .interest {
+    margin-top: 10px;
+}
+
+#about_part .overlay .interest h2 {
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#about_part .overlay .interest .hobby {
+    float: left;
+    width: 95px;
+}
+
+#about_part .overlay .interest .hobby p {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}
+
+#about_part .overlay .interest .hobby p i {
+    color: #27ff62;
+    margin-right: 8px;
+}
+
+/*=================================================
+                 about part css end
+=================================================*/
+.title {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.title p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    color: #27ff62;
+}
+
+.title h1 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+/*=================================================
+                 skills part css start
+=================================================*/
+#skill_part {
+    background: #131433;
+    padding: 20px 0px;
+}
+
+#skill_part #barfiller_part h1 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+#skill_part #barfiller_part .barfiller {
+    background: #100f2e !important;
+    border: transparent !important;
+    margin-bottom: 40px !important;
+    width: 90%;
+}
+
+#skill_part #barfiller_part .barfiller .fill {
+    background: #ff3333 !important;
+}
+
+#skill_part #barfiller_part .barfiller .tip {
+    background: transparent !important;
+    font-size: 20px;
+    margin-top: -40px;
+}
+
+/*=================================================
+                 about part css end
+=================================================*/
+/*=================================================
+                 education part css start
+=================================================*/
+#education {
+    width: 100%;
+    background: url(../images/backgorund2.jpg) no-repeat;
+    background-size: cover;
+}
+
+#education .overlay {
+    width: 100%;
+    background: rgba(16, 15, 46, 0.97);
+    padding-bottom: 100px;
+}
+
+#education .overlay .left {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#education .overlay .right {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#education .overlay .heading h1 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+#education .overlay .one {
+    margin-left: 63px;
+    margin-bottom: 30px;
+}
+
+#education .overlay .one h2 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+}
+
+#education .overlay .one h2::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -47px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #27ff62;
+}
+
+#education .overlay .one h2::after {
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: -42px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #27ff62;
+}
+
+#education .overlay .one h3 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    margin: 10px 0px;
+    position: relative;
+}
+
+#education .overlay .one h3::after {
+    position: absolute;
+    content: "";
+    top: -14px;
+    left: -37px;
+    width: 1px;
+    height: 60px;
+    background: #0bd39e;
+}
+
+#education .overlay .one p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+
+#education .overlay .one p i {
+    color: #ff3333;
+    margin-right: 5px;
+}
+
+#education .overlay .title {
+    padding-bottom: 0;
+}
+
+#education .overlay .offer .offers {
+    width: 100%;
+    border: 1px solid #c7c7c7;
+    padding: 20px 0px 20px 40px;
+    border-radius: 0px 50px 0px 0px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.05);
+    transition: .4s;
+    margin-top: 100px;
+}
+
+#education .overlay .offer .offers h4 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+#education .overlay .offer .offers p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+#education .overlay .offer .offers i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #ff3333;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: -30px;
+    left: 40px;
+    transition: .4s;
+}
+
+#education .overlay .offer .offers:hover {
+    background: #27ff62;
+    border-color: #27ff62;
+}
+
+#education .overlay .offer .offers:hover i {
+    background: #fff;
+    color: #ff3333;
+}
+
+/*=================================================
+                 education part css end
+=================================================*/
+/*=================================================
+                 portfolio part css start
+=================================================*/
+#portfolio {
+    width: 100%;
+    background: #131433;
+    padding-bottom: 100px;
+}
+
+#portfolio .sub_menu {
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+#portfolio .sub_menu ul li {
+    float: left;
+    margin-left: 40px;
+}
+
+#portfolio .sub_menu ul li a {
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    transition: .4s;
+}
+
+#portfolio .sub_menu ul li a:hover {
+    color: rgba(51, 255, 60, 0.7);
+}
+
+#portfolio .port {
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+    position: relative;
+    border-radius: 10px;
+}
+
+#portfolio .port img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#portfolio .port .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(51, 255, 60, 0.7);
+    border-radius: 10px;
+    transform: scale(0);
+    transition: .4s;
+}
+
+#portfolio .port:hover .overlay {
+    transform: scale(1);
+}
+
+#portfolio .port .overlay .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+
+}
+
+#portfolio .port .overlay .icon a i {
+    font-size: 20px;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: #444444;
+
+}
+
+#portfolio .port .overlay .icon p {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#portfolio .view {
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+#portfolio .view a {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #ff3333;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: .4s;
+}
+
+#portfolio .view a:hover {
+    background: #fff;
+    color: #2cff53;
+}
+
+/*=================================================
+                 portfolio part css end
+=================================================*/
+/*=================================================
+                 have a project part css start
+=================================================*/
+#project {
+    width: 100%;
+    background: url(../images/backgorund.jpg);
+    background-size: cover;
+
+}
+
+#project .overlay {
+    width: 100%;
+    background: rgba(16, 15, 46, 0.99);
+    padding-top: 20px;
+}
+
+#project .overlay .text {
+    margin-top: 100px;
+}
+
+#project .overlay .text h1 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+}
+
+#project .overlay .text p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin: 10px 0px;
+    width: 500px;
+}
+
+#project .overlay .text a {
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 30px;
+    background: #27ff62;
+    border-radius: 30px;
+    color: #fff;
+    margin-top: 20px;
+    transition: .4s;
+}
+
+#project .overlay .text a:hover {
+    background: #fff;
+    color: #100f2e;
+}
+
+#project .overlay .img img {
+    width: 100%;
+}
+
+/*=================================================
+                 have a project part css end
+=================================================*/
+/*=================================================
+                 testi part css start
+=================================================*/
+#testi_part {
+    width: 100%;
+    padding-bottom: 100px;
+    background: #131433;
+    position: relative;
+}
+
+#testi_part .testi_slider .slider_item {
+    margin-top: 50px;
+}
+
+#testi_part .testi_slider .slider_item .top {
+    display: flex;
+}
+
+#testi_part .testi_slider .slider_item .top .img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #ffb633;
+    float: left;
+}
+
+#testi_part .testi_slider .slider_item .top .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#testi_part .testi_slider .slider_item .top .text {
+    margin-left: 20px;
+    color: #fff;
+    margin-top: 25px;
+}
+
+#testi_part .testi_slider .slider_item .top .text h3 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#testi_part .testi_slider .slider_item .top .text h3 span {
+    margin-left: 100px;
+    color: #ffb633;
+}
+
+#testi_part .testi_slider .slider_item .top .text p {
+    margin-top: 10px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+}
+
+#testi_part .testi_slider .slider_item .details {
+    color: #fff;
+    margin-top: 30px;
+    width: 400px;
+}
+
+#testi_part .testi_slider .slider_item .details h6 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#testi_part ul {
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#testi_part ul li {
+    float: left;
+    margin-left: 10px;
+}
+
+#testi_part ul li button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #f5f5f5;
+    border: transparent;
+}
+
+#testi_part ul li.slick-active button {
+    background: #ffb633;
+}
+
+/*=================================================
+                 testi part css end
+=================================================*/
+/*=================================================
+                 blog part css start
+=================================================*/
+#blog_part {
+    width: 100%;
+    padding-bottom: 50px;
+    background: #100f2e;
+}
+
+#blog_part .blog {
+    margin-top: 50px;
+}
+
+#blog_part .blog .img {
+    width: 100%;
+    height: 250px;
+}
+
+#blog_part .blog img {
+    width: 100%;
+    height: 100%;
+}
+
+#blog_part .blog .text {
+    padding: 10px 20px;
+    transition: .4s;
+}
+
+#blog_part .blog .text p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+#blog_part .blog .text h5 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 10px;
+    line-height: 24px;
+}
+
+#blog_part .blog:hover {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+/*=================================================
+                 blog part css end
+=================================================*/
+/*=================================================
+                 get touch part css start
+=================================================*/
+#get_touch {
+    width: 100%;
+    padding-bottom: 50px;
+    background: #141534;
+}
+
+#get_touch .contact {
+    margin-top: 50px;
+}
+
+#get_touch .contact form .input {
+    display: flex;
+    justify-content: space-between;
+}
+
+#get_touch .contact form .input input {
+    width: 49%;
+    background: transparent;
+    border: 1px solid #dddddd;
+    padding: 10px 20px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+}
+
+#get_touch .contact form input {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #dddddd;
+    padding: 10px 20px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#get_touch .contact form textarea {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #dddddd;
+    padding: 10px 20px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 20px;
+    resize: none;
+}
+
+#get_touch .contact form a {
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 30px;
+    background: #3365ff;
+    border-radius: 30px;
+    color: #fff;
+    margin-top: 30px;
+    transition: .4s;
+}
+
+#get_touch .contact form a:hover {
+    background: #fff;
+    color: #27ff62;
+}
+
+#get_touch .contacts {
+    margin-top: 235px;
+}
+
+#get_touch .contacts .one{
+    margin-bottom: 50px;
+}
+#get_touch .contacts .one .icon {
+    margin-top: 5px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    background: #3365ff;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+#get_touch .contacts .one .txt h2 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#get_touch .contacts .one .txt p {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    
+
+}
+
+/*=================================================
+                 get touch part css end
+=================================================*/
+/*=================================================
+                 footer part css start
+=================================================*/
+#footer_part{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: #100f2e;
+}
+#footer_part .footer{
+    text-align: center;
+}
+#footer_part .footer p{
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    width: 550px;
+    margin: 20px auto;
+    line-height: 24px;
+}
+#footer_part .footer .icon i{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    background: #3365ff;
+    color: #fff;
+    margin-left: 20px;
+}
+#footer_part .footer .icon:first-child{
+    margin-left: 0;
+}
+#footer_part .footer .copyright{
+    margin-top: 50px;
+}
+#footer_part .footer .copyright p span a{
+    color: #27ff62;
+    margin-left: 10px;
+    font-size: 16px;
+}
+/*=================================================
+                 footer part css end
+=================================================*/

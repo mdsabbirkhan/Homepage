@@ -1,0 +1,500 @@
+/*===============================================
+            extra small device part start
+===============================================*/
+@media(min-width:320px) and (max-width:575px) {
+
+    nav ul li {
+        text-align: center;
+        margin-left: -200px;
+    }
+
+    nav ul .button {
+        margin-left: -200px;
+    }
+
+    nav ul .button a {
+        text-align: center;
+        padding: 10px 16px !important;
+        margin-left: 0;
+    }
+
+    #banner_part .text h3 {
+        font-size: 16px;
+    }
+
+    #banner_part .text {
+        margin-left: 20px;
+    }
+
+    #banner_part .text h1 {
+        font-size: 30px;
+    }
+
+    #banner_part .text h2 {
+        font-size: 18px;
+    }
+
+    #banner_part .text p {
+        width: auto;
+        font-size: 14px;
+    }
+
+    #banner_part .text a {
+        font-size: 10px;
+    }
+
+    #banner_part .icon {
+        top: 30%;
+        left: 5px;
+        margin: 0 auto;
+    }
+
+    #banner_part .icon i {
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    #banner_part .overlay .experiance .work {
+        width: 100%;
+        padding: 30px 10px;
+        bottom: -15px;
+    }
+
+    #banner_part .overlay .experiance .work .one {
+        padding-left: 10px;
+    }
+
+    #banner_part .overlay .experiance .work .one .medel {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+    #banner_part .overlay .experiance .work .one .job {
+        margin-left: 5px;
+    }
+
+    #banner_part .overlay .experiance .work .one .job h2 {
+        font-size: 10px;
+    }
+
+    #banner_part .overlay .experiance .work .one .job p {
+        font-size: 8px;
+    }
+
+    #banner_part .overlay .experiance .work .one .line {
+        widows: 0;
+        height: 0;
+    }
+
+    #about_part .overlay .right p {
+        width: auto;
+    }
+
+    #about_part .overlay .info .name {
+        margin-right: 20px;
+    }
+
+    #about_part .overlay .info .name2 {
+        margin-right: 20px;
+    }
+
+    #about_part .overlay .info .clone {
+        margin-right: 10px;
+    }
+
+    #about_part .overlay .info {
+        font-size: 13px;
+    }
+
+    #education .overlay .left {
+        margin-left: 0;
+    }
+
+    #education .overlay .right {
+        margin-left: 0;
+    }
+
+    #portfolio .sub_menu {
+        margin-left: 0;
+    }
+
+    #portfolio .sub_menu ul li {
+        margin-left: 5px;
+    }
+
+    #portfolio .sub_menu ul li a {
+        font-size: 9px;
+    }
+
+    #project .overlay .text p {
+        width: auto;
+    }
+
+    #testi_part .testi_slider .slider_item .top .text {
+        margin-left: 5px;
+    }
+
+    #testi_part .testi_slider .slider_item .top .text h3 {
+        font-size: 10px;
+    }
+
+    #testi_part .testi_slider .slider_item .top .text h3 span {
+        margin-left: 10px;
+    }
+
+    #testi_part .testi_slider .slider_item .details {
+        width: auto;
+    }
+
+    .title h1 {
+        font-size: 25px;
+    }
+
+    #get_touch .contacts {
+        margin-top: 100px;
+    }
+
+    #footer_part .footer p {
+        width: auto;
+    }
+
+}
+
+/*===============================================
+            extra small device part end
+===============================================*/
+/*===============================================
+             small device part start
+===============================================*/
+@media(min-width:576px) and (max-width:767px) {
+
+    nav ul li {
+        text-align: center;
+        margin-left: -200px;
+    }
+
+    nav ul .button {
+        margin-left: -200px;
+    }
+
+    nav ul .button a {
+        text-align: center;
+        padding: 10px 16px !important;
+        margin-left: 0;
+    }
+    #banner_part .text h1{
+        font-size: 30px;
+    }
+
+    #banner_part .icon {
+        top: 30%;
+        left: 5px;
+        margin: 0 auto;
+    }
+
+    #banner_part .icon i {
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    #banner_part .overlay .experiance .work {
+        width: 100%;
+        padding: 30px 40px;
+        bottom: -35px;
+    }
+
+    #banner_part .overlay .experiance .work .one {
+        padding-left: 10px;
+    }
+
+    #banner_part .overlay .experiance .work .one .medel {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    #banner_part .overlay .experiance .work .one .job {
+        margin-left: 5px;
+    }
+
+    #banner_part .overlay .experiance .work .one .job h2 {
+        font-size: 14px;
+    }
+
+    #banner_part .overlay .experiance .work .one .job p {
+        font-size: 12px;
+    }
+
+    #banner_part .overlay .experiance .work .one .line {
+        margin-left: 30px;
+        height: 50px;
+    }
+
+    #about_part .overlay .left {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    #about_part .overlay .left .img::before {
+        left: 100px;
+    }
+
+    #about_part .overlay .left .img::after {
+        left: 100px;
+    }
+
+    #about_part .overlay .left .img h3::before {
+        left: 406px;
+    }
+
+    #about_part .overlay .left .img h3::after {
+        left: 306px;
+    }
+
+    #about_part .overlay .right p {
+        width: auto;
+    }
+
+    #about_part .overlay .info .name2 {
+        margin-right: 0;
+    }
+
+    .title {
+        padding-top: 30px;
+    }
+
+    #education .overlay .offer .offers h4 {
+        font-size: 18px;
+    }
+
+    #education .overlay .offer .offers {
+        margin-top: 50px;
+    }
+
+    #portfolio .sub_menu {
+        margin-left: 0;
+    }
+
+    #portfolio .sub_menu ul li a {
+        font-size: 12px;
+    }
+
+    #footer_part .footer p {
+        width: auto;
+    }
+
+
+}
+
+/*===============================================
+             small device part end
+===============================================*/
+/*===============================================
+             medium device part start
+===============================================*/
+@media(min-width:768px) and (max-width:991px) {
+
+    nav ul li {
+        text-align: center;
+        margin-left: -150px;
+    }
+
+    nav ul .button {
+        margin-left: 100px;
+        margin-right: 275px;
+    }
+
+    #banner_part .text h1 {
+        font-size: 40px;
+    }
+
+    #banner_part .text p {
+        width: auto;
+    }
+
+    #banner_part .text {
+        margin-left: 20px;
+    }
+
+    #banner_part .text a {
+        font-size: 14px;
+    }
+
+    #banner_part .overlay .experiance .work {
+        width: 80%;
+        padding: 30px 0px 30px 70px;
+        bottom: -50px;
+    }
+
+    #banner_part .overlay .experiance .work .one {
+        padding-left: 10px;
+    }
+
+    #banner_part .overlay .experiance .work .one .medel {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+
+    #banner_part .overlay .experiance .work .one .job {
+        margin-left: 5px;
+    }
+
+    #banner_part .overlay .experiance .work .one .job h2 {
+        font-size: 14px;
+    }
+
+    #banner_part .overlay .experiance .work .one .job p {
+        font-size: 12px;
+    }
+
+    #banner_part .overlay .experiance .work .one .line {
+        margin-left: 30px;
+        height: 50px;
+    }
+
+    #about_part .overlay .left {
+        margin-top: 100px;
+    }
+
+    #about_part .overlay .right {
+        margin-top: 100px;
+    }
+
+    #about_part .overlay .right p {
+        width: auto;
+        font-size: 14px;
+    }
+
+    #about_part .overlay .info .name {
+        margin-right: 20px;
+    }
+
+    #about_part .overlay .info .clone {
+        margin-right: 10px;
+    }
+
+    #about_part .overlay .info .name2 {
+        margin-right: 0;
+    }
+
+    #about_part .overlay .interest {
+        margin-top: 0;
+    }
+
+    #education .overlay .one h2 {
+        font-size: 18px;
+    }
+
+    #portfolio .sub_menu {
+        margin-left: 60px;
+    }
+
+    .title {
+        padding-top: 30px;
+    }
+
+    #education .overlay .heading h1 {
+        font-size: 30px;
+    }
+
+    #education .overlay .left {
+        margin-left: 0;
+    }
+
+    #project .overlay .text {
+        margin-top: 30px;
+    }
+
+    #project .overlay .text h1 {
+        font-size: 28px;
+    }
+
+    #project .overlay .text p {
+        width: auto;
+    }
+
+    #testi_part .testi_slider .slider_item .details {
+        width: auto;
+    }
+
+    #testi_part .testi_slider .slider_item .top .text h3 {
+        font-size: 13px;
+    }
+
+    #testi_part .testi_slider .slider_item .top .text h3 span {
+        margin-left: 10px;
+    }
+
+    #blog_part .blog .text h5 {
+        font-size: 14px;
+    }
+
+    #get_touch .contacts {
+        margin-top: 185px;
+    }
+
+    #get_touch .contacts .one .txt p {
+        font-size: 13px;
+    }
+
+}
+
+/*===============================================
+             medium device part end
+===============================================*/
+/*===============================================
+             large device part start
+===============================================*/
+@media(min-width:992px) and (max-width:1199px) {
+    nav ul li {
+        margin-left: 10px;
+    }
+
+    #banner_part .text {
+        margin-left: 20px;
+    }
+
+    #banner_part .text p {
+        width: auto;
+    }
+
+    #banner_part .overlay .experiance .work .one .medel {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+
+    #banner_part .overlay .experiance .work .one {
+        padding-left: 0;
+    }
+
+    #banner_part .overlay .experiance .work .one .job h2 {
+        font-size: 16px;
+    }
+
+    #banner_part .overlay .experiance .work .one .line {
+        margin-left: 30px;
+    }
+
+    #about_part .overlay .info .name2 {
+        margin-right: 0;
+    }
+
+    #testi_part .testi_slider .slider_item .top .text h3 span {
+        margin-left: 70px;
+    }
+
+    #portfolio .sub_menu {
+        margin-left: 170px;
+    }
+}
+
+/*===============================================
+             large device part end
+===============================================*/
