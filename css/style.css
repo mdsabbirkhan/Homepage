@@ -84,6 +84,9 @@ nav ul .button a {
     color: #272626 !important;
     transition: .4s;
 }
+nav ul .button a{
+        margin-left: 0px;
+}
 
 nav ul .button a:hover {
     background: #fff;
